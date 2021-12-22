@@ -40,7 +40,7 @@ function sendEmail () {
         // SecureToken : "48a06d0a-42d9-49f8-900e-e41f72c16826",
         Host: "smtp.gmail.com",
         username: "Hightargetweb@gmail.com",
-        password: "_@Heritage16",
+        password: "Heritage4lyf",
         To : "heritageadeoye012@gmail.com",
         From : document.querySelector("#mail").value,
         Subject : "New contact form enquiry",
