@@ -32,8 +32,8 @@ form.addEventListener('submit', function(e){
 // TO SEND THE CONTACT FORM TO MY MAIL  
 /////////////////////////////////////////////////////////////////////
 
-const submitBtn = document.querySelector("#submit-btn");
-submitBtn.addEventListener('click',sendEmail);
+// const submitBtn = document.querySelector("#submit-btn");
+// submitBtn.addEventListener('click',sendEmail);
 
 function sendEmail () {
     Email.send({
