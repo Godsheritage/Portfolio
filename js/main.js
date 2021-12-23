@@ -42,9 +42,9 @@ function sendEmail () {
         username: "hightargetweb@gmail.com",
         password: "Heritage4lyf",
         To : "adeoyegodsheritage@gmail.com",
-        From : document.getElementByID("mail").value,
+        From : document.getElementById("mail").value,
         Subject : "New contact form enquiry",
-        Body : "name:" + document.getElementByID("name").value
+        Body : "name:" + document.getElementById("name").value
 //         + "Mail" + document.querySelector("#mail").value
 //         + "Phone number:" +  document.querySelector("#phone").value
 //         + "website:" + document.querySelector("#website").value
