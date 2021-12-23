@@ -55,7 +55,7 @@ form.addEventListener('submit', function(e){
 // }
 function sendEmail () {
     Email.send({
-        SecureToken : "48a06d0a-42d9-49f8-900e-e41f72c16826",
+        SecureToken : "e4ba2942-0373-4dec-9eea-cf21ca0032bf",
 //         Host : "smtp.gmail.com",
 //         Username : "hightargetweb@gmail.com",
 //         Password : "Heritage4lyf",
