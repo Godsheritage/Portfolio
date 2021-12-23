@@ -35,22 +35,35 @@ form.addEventListener('submit', function(e){
 // const submitBtn = document.querySelector("#submit-btn");
 // submitBtn.addEventListener('click',sendEmail);
 
+// function sendEmail () {
+//     Email.send({
+//         // SecureToken : "48a06d0a-42d9-49f8-900e-e41f72c16826",
+//         Host: "smtp.gmail.com",
+//         username: "hightargetweb@gmail.com",
+//         password: "Heritage4lyf",
+//         To : "adeoyegodsheritage@gmail.com",
+//         From : document.getElementById("mail").value,
+//         Subject : "New contact form enquiry",
+//         Body : "name:" + document.getElementById("name").value
+// //         + "Mail" + document.querySelector("#mail").value
+// //         + "Phone number:" +  document.querySelector("#phone").value
+// //         + "website:" + document.querySelector("#website").value
+// //         + "message:" + document.querySelector("#text").value
+//     }).then(
+//     message => alert("Thanks, Your Message has been sent")
+//     );
+// }
 function sendEmail () {
     Email.send({
-        // SecureToken : "48a06d0a-42d9-49f8-900e-e41f72c16826",
-        Host: "smtp.gmail.com",
-        username: "hightargetweb@gmail.com",
-        password: "Heritage4lyf",
-        To : "adeoyegodsheritage@gmail.com",
-        From : document.getElementById("mail").value,
-        Subject : "New contact form enquiry",
-        Body : "name:" + document.getElementById("name").value
-//         + "Mail" + document.querySelector("#mail").value
-//         + "Phone number:" +  document.querySelector("#phone").value
-//         + "website:" + document.querySelector("#website").value
-//         + "message:" + document.querySelector("#text").value
+        Host : "smtp.gmail.com",
+        Username : "hightargetweb@gmail.com",
+        Password : "Heritage4lyf",
+        To : 'adeoyegodsheritage@gmail.com',
+        From : "you@isp.com",
+        Subject : "This is the subject",
+        Body : "And this is the body"
     }).then(
-    message => alert("Thanks, Your Message has been sent")
+      message => alert(message)
     );
 }
 
