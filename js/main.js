@@ -41,14 +41,14 @@ function sendEmail () {
         Host: "smtp.gmail.com",
         username: "hightargetweb@gmail.com",
         password: "Heritage4lyf",
-        To : "heritageadeoye012@gmail.com",
-        From : document.querySelector("#mail").value,
+        To : "Adeoyegodsheritage@gmail.com",
+        From : document.getElementByID("mail").value,
         Subject : "New contact form enquiry",
-        Body : "name:" + document.querySelector("#name").value
-        + "Mail" + document.querySelector("#mail").value
-        + "Phone number:" +  document.querySelector("#phone").value
-        + "website:" + document.querySelector("#website").value
-        + "message:" + document.querySelector("#text").value
+        Body : "name:" + document.getElementByID("name").value
+//         + "Mail" + document.querySelector("#mail").value
+//         + "Phone number:" +  document.querySelector("#phone").value
+//         + "website:" + document.querySelector("#website").value
+//         + "message:" + document.querySelector("#text").value
     }).then(
     message => alert("Thanks, Your Message has been sent")
     );
