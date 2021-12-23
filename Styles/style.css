@@ -158,7 +158,7 @@ section{
     color:#F1D37D;;
 }
 #preloader{
-    background: #000 url(../images/4.GIF) no-repeat center center;
+    background: #fff url(../images/4.GIF) no-repeat center center;
     background-size: 30%;
     width:100%;
     height:100vh;
