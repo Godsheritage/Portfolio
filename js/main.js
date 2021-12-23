@@ -41,7 +41,7 @@ function sendEmail () {
         Host: "smtp.gmail.com",
         username: "hightargetweb@gmail.com",
         password: "Heritage4lyf",
-        To : "Adeoyegodsheritage@gmail.com",
+        To : "adeoyegodsheritage@gmail.com",
         From : document.getElementByID("mail").value,
         Subject : "New contact form enquiry",
         Body : "name:" + document.getElementByID("name").value
