@@ -55,9 +55,10 @@ form.addEventListener('submit', function(e){
 // }
 function sendEmail () {
     Email.send({
-        Host : "smtp.gmail.com",
-        Username : "hightargetweb@gmail.com",
-        Password : "Heritage4lyf",
+        SecureToken : "48a06d0a-42d9-49f8-900e-e41f72c16826",
+//         Host : "smtp.gmail.com",
+//         Username : "hightargetweb@gmail.com",
+//         Password : "Heritage4lyf",
         To : 'adeoyegodsheritage@gmail.com',
         From : "you@isp.com",
         Subject : "This is the subject",
