@@ -63,6 +63,17 @@ window.addEventListener('load', () => {
     preloader.style.display = "none"
 })
 
+/////////////////////////////////////////////////////////////////////
+// PRELOADER  
+/////////////////////////////////////////////////////////////////////
+var typed = new Typed(".auto-input", {
+    strings: ["My name is 'Godsheritage","I am a web developer", "I am a UI/UX Designer"],
+    typeSpeed:100,
+    backSpeed:100,
+    loop:true
+}) 
+
+
 
 
 
