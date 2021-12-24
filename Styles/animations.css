@@ -26,6 +26,18 @@
         opacity:1;  
     }
 }
+.btn-3-1{
+    animation:btn 5s ease 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes  btn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;  
+    }
+}
 .btn-main{
     /* display: none; */
 }
