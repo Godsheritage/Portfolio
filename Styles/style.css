@@ -79,8 +79,8 @@ section{
     cursor:pointer;
 }
 .btn-3{
-    width:7.6rem;
-    height:2.3rem;
+    width:120px;
+    height:50px;
     padding:0.1rem;
     color:white;
     background-color:#ecd082;
@@ -88,8 +88,30 @@ section{
     transition: all 1s ease;
     opacity:0;
     border:none;
+    font-size: 1rem;
 }
 .btn-3:hover{
+    border:none;
+    background-color:#ebc358;
+    opacity:1;
+    cursor:pointer;
+}
+.btn-3 a{
+    color:white;
+}
+.btn-3-1{
+    width:200px;
+    height:50px;
+    padding:0.1rem;
+    color:white;
+    background-color:#ecd082;
+    margin-top:1rem;
+    transition: all 1s ease;
+    opacity:0;
+    border:none;
+    font-size: 1rem;
+}
+.btn-3-1:hover{
     border:none;
     background-color:#ebc358;
     opacity:1;
