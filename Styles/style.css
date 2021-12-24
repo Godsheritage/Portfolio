@@ -69,6 +69,9 @@ section{
     transition:all 1s ease;
     border: 1px black solid;
 }
+.btn-2 a{
+    color:#fff;
+}
 .btn-2:hover{
     border:none;
     background-color:#F1D37D;
