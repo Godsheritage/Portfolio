@@ -64,14 +64,22 @@ window.addEventListener('load', () => {
 })
 
 /////////////////////////////////////////////////////////////////////
-// PRELOADER  
+// FOR THE AUTO TPYING ON TYPE JS 
 /////////////////////////////////////////////////////////////////////
-var typed = new Typed(".auto-input", {
-    strings: ["My name is 'Godsheritage","I am a web developer", "I am a UI/UX Designer"],
-    typeSpeed:100,
-    backSpeed:100,
-    loop:true
+var typed = new Typed('.typed-words', {
+strings: ["My name is 'Godsheritage","I am a web developer","I am a UI/UX Designer"],
+typeSpeed: 80,
+backSpeed: 80,
+backDelay: 4000,
+startDelay: 1000,
+loop: true,
+showCursor: false
 });
+
+
+
+
+
 
 
 
