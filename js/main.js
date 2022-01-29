@@ -53,7 +53,7 @@ function sendEmail (e) {
 // FOR THE AUTO AUTO TYPE ON TYPE JS 
 /////////////////////////////////////////////////////////////////////
 var typed = new Typed('.typed-words', {
-strings: ["Ethusiastic Dev😎","Front End developer💻","UI/UX Designer📱"],
+strings: ["Ethusiastic Dev😎","React Developer💻","UI/UX Designer📱"],
 typeSpeed: 80,
 backSpeed: 80,
 backDelay: 4000,
