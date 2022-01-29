@@ -44,7 +44,7 @@ function sendEmail (e) {
 // FOR THE PRELOADER  
 /////////////////////////////////////////////////////////////////////
 
-// window.addEventListener('load', () => {
+ window.addEventListener('load', () => {
 //     const preloader = document.querySelector('#preloader')
 //     preloader.style.display = "none"
 // })
