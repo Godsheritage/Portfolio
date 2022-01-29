@@ -45,7 +45,7 @@ function sendEmail (e) {
 /////////////////////////////////////////////////////////////////////
 
  window.addEventListener('load', () => {
-//     const preloader = document.querySelector('#preloader')
+    const preloader = document.querySelector('#preloader')
 //     preloader.style.display = "none"
 // })
 
