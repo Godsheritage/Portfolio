@@ -1,0 +1,239 @@
+/**============================================================================**/
+/**Portfolio section**/
+/**============================================================================**/
+.portfolio{
+    height:120vh;
+    .portfolio-container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.2rem;
+        
+        .img-container{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            row-gap:3rem;
+            column-gap:3rem;
+            margin:auto;
+            // column-gap: 3rem;
+            .front img{
+                width:20rem;
+                height:18.7rem;
+                border:none;    
+                padding:15px 15px 15px 15px;
+                background-color: $orange;
+            }  
+            
+        }
+        .card{
+            cursor: pointer;
+            width:20.6rem;
+            height:18rem;
+            .front{
+                transform: perspective(600px) rotateY(0deg);
+            }
+            .back{
+                background:$blue-bg;
+                transform: perspective(600px) rotateY(180deg);
+                .back-content{
+                    color:$white;
+                    text-align: center;
+                    // width:100%;
+                    font-family: 'poppins regular';
+                    padding:0px 0.8rem 0px 0.8rem;
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    row-gap: 1.8rem;
+                    // align-items: space-evenly;
+                    h2{
+                        font-family: cursive;
+                    }
+                    .btn-main{
+                        display:flex;
+                        column-gap: 1rem;
+                        .btn-3{
+                            width:7rem;
+                            height:2.5rem;
+                            border-radius:30px;
+                            border: 2px solid $white;
+                            padding:0.1rem;
+                            color:$white;
+                            background-color:rgba(0,0,0,0);
+                            margin-top:1rem;
+                            transition: all 0.3s ease;
+                            &:hover{
+                                border: 2px solid $orange;
+                            }
+                            a{
+                                font-size: 0.8rem;
+                                color:$white;
+                                text-decoration: none;
+                            }
+                        }
+                        .btn-3-1{
+                            width:7rem;
+                            height:2.5rem;
+                            border-radius:30px;  
+                            padding:0.1rem;
+                            color:$white;
+                            background-color:$orange;
+                            border:none;
+                            margin-top:1rem;
+                            transition: all 0.3s ease;
+                            &:hover{
+                                border: none;
+                                color:$black;
+                                // background-color: $white;
+                            }
+                            a{
+                                color:$white;
+                                text-decoration: none;
+                                font-size: 0.8rem;
+                            }
+
+                        }
+                    }
+                }
+            }
+            .front, .back{
+                width: 20rem;
+                height:18.7rem;
+                overflow: hidden;
+                backface-visibility: hidden;
+                position: absolute;
+                transition: transform .6s linear;
+            }
+        
+        }
+        
+        
+        .card:hover > .front{
+            transform: perspective(600px) rotateY(-180deg)
+        }
+        .card:hover > .back{
+            transform: perspective(600px) rotateY(0deg)
+        }
+        
+
+    }
+   
+}
+
+@media(min-width:1200px){
+
+.portfolio{
+    // height:80vh;
+
+    .portfolio-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        row-gap: 2rem;
+        // column-gap: 2rem;
+        
+        .img-container{
+            // display:flex;
+            // justify-content: center;
+            // align-items: center;
+            // flex-wrap: wrap;
+            // row-gap:2rem;
+            // column-gap: 2rem;
+
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            // column-gap: 5rem;
+            // row-gap: 5rem;
+            // row-gap:3rem;
+            // column-gap: 3rem;
+            // gap:3rem 3rem;
+
+            // .front img{
+            //     width:20rem;
+            //     height:20rem;
+            // }  
+            
+        }
+        .card{
+            cursor: pointer;
+            // width:20rem;
+            // height:20rem;
+            .front, .back{
+                // width: 20rem;
+                // height:20rem;
+                overflow: hidden;
+                backface-visibility: hidden;
+                position: absolute;
+                transition: transform .6s linear;
+            }
+        
+        }
+        
+        
+     
+
+    }
+   
+}
+
+
+}
+@media(max-width:800px){
+
+.portfolio{
+    height:170vh;
+
+    .portfolio-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        row-gap: 2rem;
+        
+        .img-container{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            row-gap:2rem;
+            column-gap: 2rem;
+            .front img{
+                width:18rem;
+                height:16.7rem;
+            }  
+            
+        }
+        .card{
+            cursor: pointer;
+            width:18rem;
+            height:16.7rem;
+            .front, .back{
+                width: 18rem;
+                height:16.7rem;
+                overflow: hidden;
+                backface-visibility: hidden;
+                position: absolute;
+                transition: transform .6s linear;
+            }
+        
+        }
+        
+        
+     
+
+    }
+   
+}
+
+
+}
+
+@media(max-width:600px){
+    .portfolio{
+        // height:300vh;
+        margin-top:10rem;
+    }
+
+}
